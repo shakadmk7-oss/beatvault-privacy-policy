@@ -2,137 +2,14 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Beat Vault Music Player — Privacy Policy</title>
-<style>
-  :root {
-    color-scheme: dark;
-    --bg: #0f0a17;
-    --surface: #1a1224;
-    --border: #2a1f38;
-    --text: #f3eefb;
-    --text-dim: #cbbfdc;
-    --text-muted: #9c8bb4;
-    --accent: #b026ff;
-  }
-  * { box-sizing: border-box; }
-  body {
-    margin: 0;
-    padding: 0 20px 64px;
-    background: var(--bg);
-    color: var(--text);
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    line-height: 1.6;
-  }
-  .wrap {
-    max-width: 640px;
-    margin: 0 auto;
-  }
-  header {
-    padding-top: 48px;
-    padding-bottom: 8px;
-  }
-  h1 {
-    font-size: 26px;
-    font-weight: 700;
-    margin: 0 0 6px;
-  }
-  .app-name {
-    color: var(--accent);
-  }
-  .updated {
-    color: var(--text-muted);
-    font-size: 13px;
-    margin: 0 0 32px;
-  }
-  .card {
-    background: var(--surface);
-    border-radius: 14px;
-    overflow: hidden;
-    margin-bottom: 24px;
-  }
-  section {
-    padding: 18px 20px;
-    border-top: 1px solid var(--border);
-  }
-  section:first-child {
-    border-top: none;
-  }
-  h2 {
-    font-size: 15px;
-    font-weight: 700;
-    margin: 0 0 8px;
-  }
-  p {
-    color: var(--text-dim);
-    font-size: 14px;
-    margin: 0;
-  }
-  .contact {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    color: var(--text-muted);
-    font-size: 13px;
-    margin-bottom: 24px;
-  }
-  .contact a {
-    color: var(--text-muted);
-  }
-  footer {
-    color: var(--text-muted);
-    font-size: 12px;
-    text-align: center;
-    padding-top: 16px;
-  }
-  a { color: var(--accent); }
-</style>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>BeatVault Music Player — Privacy Policy</title>
+<link rel="canonical" href="https://beatvaultapp.com/player/privacy/">
+<meta http-equiv="refresh" content="0; url=https://beatvaultapp.com/player/privacy/">
+<style>body{font:16px/1.6 system-ui,sans-serif;background:#0b0710;color:#f2ecf8;padding:40px 20px;text-align:center}a{color:#c77dff}</style>
 </head>
 <body>
-  <div class="wrap">
-    <header>
-      <h1><span class="app-name">Beat Vault Music Player</span> — Privacy Policy</h1>
-      <p class="updated">Last updated: October 9, 2026</p>
-    </header>
-
-    <div class="card">
-      <section>
-        <h2>Everything stays on your device</h2>
-        <p>BeatVault doesn't have a server, an account system, or a sign-in. Your music library, playlists, listening stats, theme choices, and profile picture are all stored locally on your phone (Android's app storage) and are never uploaded anywhere.</p>
-      </section>
-      <section>
-        <h2>File access</h2>
-        <p>BeatVault asks for permission to read your music so it can find and play it. With "Find my music" it looks through all the music Android knows about on your phone; with "Choose Folder / Song(s)" it reads only what you pick. To edit tags (title, artist, key, etc.) or covers, it asks once for edit access to a folder, and only writes to files in folders you've allowed. Your music files and their contents never leave the phone.</p>
-      </section>
-      <section>
-        <h2>The diagnostic log</h2>
-        <p>BeatVault keeps a rolling, on-device-only log of player events (play/pause/seek, that kind of thing) for up to 24 hours, used to help debug problems. It never leaves your phone on its own. The only way it goes anywhere is if you choose Support &gt; Report a Bug, which opens your own email app with the log attached as a file - you see and control that email before it sends, and it goes to the address below.</p>
-      </section>
-      <section>
-        <h2>No analytics, no ads, no tracking</h2>
-        <p>BeatVault doesn't include any analytics, advertising, or crash-reporting SDK. Nothing about how you use the app is collected or sent anywhere - there's simply no code path that does that.</p>
-      </section>
-      <section>
-        <h2>Trial timer</h2>
-        <p>BeatVault includes a 14-day free trial. Its start date is stored in a small file on your device, kept separate from your song library so it survives an uninstall/reinstall. When online, the app also makes one request to a public time service (worldtimeapi.org) to check the real current time - this only guards against resetting the trial by changing your device's clock. No personal data is sent to or received from that request. The optional Lifetime Unlock is bought through Google Play, which handles payment - BeatVault never sees your payment details.</p>
-      </section>
-      <section>
-        <h2>Online song details and covers</h2>
-        <p>Only when you use Identify (ID) or Search Online in the song editor, BeatVault sends the search words you see (artist, title, album, year) to MusicBrainz (musicbrainz.org) and downloads cover images from the Cover Art Archive (coverartarchive.org, hosted by archive.org). Some mobile networks can't reach archive.org, so if a cover fails to load the app fetches the same image through the wsrv.nl image service instead. Like any website, these services see your IP address, and wsrv.nl keeps its request logs for 7 days. No account, song file, or other personal data is sent.</p>
-      </section>
-      <section>
-        <h2>Nothing is sold or shared</h2>
-        <p>Since BeatVault doesn't collect data in the first place, there's nothing to sell or share with third parties.</p>
-      </section>
-    </div>
-
-    <div class="contact">
-      ✉️ <span>Questions about this policy: <a href="mailto:shakadmk7@gmail.com">shakadmk7@gmail.com</a></span>
-    </div>
-
-    <footer>
-      This page mirrors the Privacy screen inside Beat Vault Music Player.
-    </footer>
-  </div>
+<p>The BeatVault Music Player privacy policy has moved to
+<a href="https://beatvaultapp.com/player/privacy/">beatvaultapp.com/player/privacy</a>.</p>
 </body>
 </html>
